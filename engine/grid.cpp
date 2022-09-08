@@ -260,10 +260,6 @@ bool EngineClassGrid::getPlayerEnemyCollision(int _x, int _y)
         {
             ret = true;
         }
-        else
-        {
-            ret = false;
-        }
     }
     return ret;
 }
