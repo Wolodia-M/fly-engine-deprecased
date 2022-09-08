@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>
+        Undecover of engine
+    </title>
+</head>
+
+<body>
+    <h1>
+        Fly Engine documentation
+    </h1>
+    <h1>
+        <navstyle>
+            <a href="main.html">Back to main page</a>
+        </navstyle>
+    </h1>
+    <h1>
+        Some undercover stuffs of engine
+    </h1>
+    <p>
+        Enemies data are stored as struct that is stored in std::vector. It has x and y of
+        start and end in grid pos. Also it has a pos in that it stay at the moment. It is 
+        represented as grid pos and a shift on x and y axis. Pos in a grid cell start at 0, 0
+        at up left corner. Also enemy struct has its position index counter, max position
+        index and direction variable. Also it has two std::vector, that save all positions,
+        that represen line from start to end and that is calculated using DDA algorithm. <br />
+    </p>
+    <p>
+        Engine has class for handling texture atlass. It has array of SDL_Rects, that stores
+        position of all textures, but names of textures is stored in enum, that live in another
+        file ;) <br />
+    </p>
+</body>
+
+</html>

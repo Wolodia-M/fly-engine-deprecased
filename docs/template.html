@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>
+        Template
+    </title>
+</head>
+
+<body>
+    <h1>
+        Fly Engine documentation
+    </h1>
+    <h1>
+        <navstyle>
+            <a href="main.html">Back to main page</a>
+        </navstyle>
+    </h1>
+    <h1>
+        Template of game
+    </h1>
+    <p>
+        main.cpp, fly_engine_template.hpp and game_main.hpp - files for game template. <br />
+        You can leave main.cpp as is, only change include of fly_engine_template.hpp. <br />
+        fly_engine_template.hpp - header of projects, it includes libraries, files of game,
+        engine.hpp, declare global variables, objects and make defines. <br />
+        game_main.hpp - handle init and exit from game, you can add your custom init / exit
+        here. 
+        Also it has frame(), dont touch it, and tick(), all updates work here. It update 
+        control via SDL_Event, handle game state via if or switch and make timed updates 
+        (engine.tick()) using timers. <br />
+    </p>
+</body>
+
+</html>

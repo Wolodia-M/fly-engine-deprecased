@@ -1,0 +1,34 @@
+[Rows]              // max - 100
+[Columns]           // max - 100
+[Player start x]    // max - 100
+[Player start y]    // max - 100
+[Finish x]			// max - 100
+[Finish y]			// max - 100
+[LEVEL DATA IN FORMAT:]
+1 1 1 1 1
+1 1 1 1 1
+where:
+0 - TILE_WALL_CORNER
+1 - TILE_WALL_HORIZONTAL
+2 - TILE_WALL_VERTICAL
+3 - TILE_FLOOR
+4 - TILE_WINDOW_HORIZONTAL
+5 - TILE_WINDOW_VERTICAL
+6 - TILE_DOOR_HORIZONTAL
+7 - TILE_DOOR_VERTICAL
+8 - TILE_FLOOR_DECO_0  (fire lamp)
+9 - TILE_FLOOR_DECO_1  (stand with weapon)
+a - TILE_FLOOR_DECO_2  (stand with armour)
+b - TILE_FLOOR_DECO_3  (potted tree)
+c - TILE_FLOOR_DECO_4  (stand with banner)
+d - TILE_STAIRS        (possible output)
+[Enemy 1 start pos x]
+[Enemy 1 start pos y]
+[Enemy 1 end pos x]
+[Enemy 1 end pos y]
+[Enemy 2 start pos x]
+[Enemy 2 start pos y]
+[Enemy 2 end pos x]
+[Enemy 2 end pos y]
+...
+endlvl

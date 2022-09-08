@@ -1,0 +1,44 @@
+h1 {
+    color: black;
+    background-color: aqua;
+    text-align: center;
+}
+
+h1 navstyle {
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    color: darkblue;
+    background-color: antiquewhite;
+    text-align: left;
+    font-size: large;
+}
+
+table {
+    color: darkblue;
+    background-color: antiquewhite;
+    text-align: left;
+    font-size: large;
+}
+
+hr {
+    color: antiquewhite;
+    background-color: black;
+}
+
+li {
+    color: white;
+    background-color: indigo;
+    text-align: left;
+    font-size: large;
+}
+
+h3 {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+}

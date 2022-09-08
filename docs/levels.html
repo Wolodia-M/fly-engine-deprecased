@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>
+        Level
+    </title>
+</head>
+
+<body>
+    <h1>
+        Fly Engine documentation
+    </h1>
+    <h1>
+        <navstyle>
+            <a href="main.html">Back to main page</a>
+        </navstyle>
+    </h1>
+    <h1>
+        Level parser and format
+    </h1>
+    <p>
+        Level file contais all information about one level of game. <br />
+        First line of file - rows of level grid and second - columns. <br />
+        Next two lines are x and y for player start (counting start from left up corner as 
+        0, 0). <br />
+        Next two lines are x and y for player finish (counting start from left up corner as 
+        0, 0). <br />
+        Next is a level grid. In file level.template you can find all identifier for this grid. <br />
+        You must have spaces betwen values and you cannot make level bigger that rows and 
+        columns specified in first two lines. <br />
+        Then are enemies data in format: start x, start y, end x, end y. All numbers in new 
+        lines. <br />
+        End last line must be "endlvl". It needed for parser. <br />
+    </p>
+    <p>
+        You can load level with call to engine.loadLevel("path to level file"). <br />
+    </p>
+</body>
+
+</html>
